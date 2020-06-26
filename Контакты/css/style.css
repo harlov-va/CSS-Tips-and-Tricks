@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #777777;
+}
+
+.contacts {
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.contacts .title {
+    font-size: 20px;
+    font-style: bold;
+    color: #7f8c8c;
+    margin-bottom: 20px;
+}
+
+.contacts .item {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    
+}
+/* заменить на псевдоэлемент ::after */
+.icon {
+    position: absolute;
+    width: 22px;
+    height: 32px;
+    left: 0;
+    top: 0;
+    background: 0 0 no-repeat url("../img/contacts.PNG");
+}
+
+.icon-location {
+    background: 0 0 no-repeat url("../img/contacts.PNG");
+}
+
+.icon-phone {
+    background: -30px 0 no-repeat url("../img/contacts.PNG");
+}
+
+.icon-email {
+    background: -60px 0 no-repeat url("../img/contacts.PNG");
+}
+
+.contacts a {
+    color: #e2534b;
+}

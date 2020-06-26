@@ -1,0 +1,11 @@
+.pictures {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.picture {
+   
+}
+.picture img {
+    width: 140px;
+}

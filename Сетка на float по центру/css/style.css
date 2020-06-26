@@ -1,0 +1,43 @@
+.header,
+.footer {
+    margin-bottom: 10px;
+    color: white;    
+    background: #132b64;
+    min-height: 50px;
+}
+.layout-column {
+    float: left;
+    width: 130px;
+    background-color: rgb(226, 226, 226);
+    margin-right: 20px;
+}
+.layout-column:last-child {
+    margin-right: 0px;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.logo {
+    float: left;
+    width: 130px;
+    /* background-color: purple; */
+    min-height: 50px;
+}
+.menu {
+    float: right;
+    width: 130px;
+    /* background-color: purple; */
+    min-height: 50px;
+}
+.layout-positioner {
+    /* border: 2px dashed #3498db; */
+    width: 430px;
+    margin: 0px auto;
+}
+.layout-positioner::after {
+    content: "";
+    display: table;
+    clear: both;
+}

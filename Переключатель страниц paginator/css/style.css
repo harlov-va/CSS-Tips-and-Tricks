@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;    
+}
+
+.paginator {
+    width: 280px;
+    margin: 30px auto;
+    padding: 10px;
+    white-space: nowrap;
+    background-color: #ecf0f1;
+}
+
+.paginator a,
+.paginator span {
+    display: inline-block;
+    min-width: 20px;
+    height: 40px;
+    padding: 0 10px;
+    background-color: #95a5a6;
+
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.next,
+.prev {
+    text-indent: -1000px;
+}
+
+.prev {
+    margin-right: 20px;
+    background: url("../img/arrows.png") no-repeat 0 -80px ;
+}
+
+.next {
+    margin-left: 20px;
+    background: url("../img/arrows.png") no-repeat 0 0 ;
+}
+
+a.current {
+    background-color: #16a085;
+}
+
+.disabled {
+     opacity: 0.3;
+}
+
+.paginator a:hover {
+    background-color: #2ecc71;
+}
