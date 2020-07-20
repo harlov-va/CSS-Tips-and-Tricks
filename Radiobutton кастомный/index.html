@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="world">
+    <form class="filter" method="get" action="">
+    <fieldset>
+        <legend>Сетка:</legend>
+        <ul>
+            <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-radio" type="radio"
+                    name="grid-group" value="adaptive" id="filter-adaptive">
+                <label for="filter-adaptive">Адаптивная</label>
+            </li>
+            <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-radio" type="radio"
+                    name="grid-group" value="fixed" id="filter-fixed" checked>
+                <label for="filter-fixed">Фиксированная</label>
+            </li>
+            <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-radio" type="radio"
+                    name="grid-group" value="rubber" id="filter-rubber">
+                <label for="filter-rubber">Резиновая</label>
+            </li>
+        </ul>
+    </fieldset>
+    </form>
+</body>
+</html>

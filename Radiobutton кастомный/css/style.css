@@ -1,0 +1,80 @@
+.filter legend {
+    margin-bottom: 21px;
+}
+
+.filter fieldset {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+
+    border: none;
+}
+
+.filter fieldset:first-child {    
+    margin-bottom: 46px;
+}
+
+.filter ul {
+    padding: 0;
+    margin: 0;
+}
+
+.filter-option {
+    margin-bottom: 19px;
+    padding-left: 36px;
+}
+
+.filter-option label {
+    position: relative;
+
+    display: block;
+
+    cursor: pointer;
+    user-select: none;
+}
+
+.filter-input-radio:checked + label::before {
+    content: "";
+    position: absolute;
+    left: -39px;
+    top: -2px;
+
+    width: 25px;
+    height: 25px; 
+    
+    background-image: url("../svg/radio-on.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.filter-input-radio + label::before {
+    content: "";
+    position: absolute;
+    left: -39px;
+    top: -2px;
+
+    width: 25px;
+    height: 25px; 
+    
+    background-image: url("../svg/radio-off.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
